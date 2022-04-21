@@ -1,3 +1,3 @@
 [mewwts.xyz](https://mewwts.xyz)
 
-[duneanalytics.com](https://duneanalytics.com)
+[dune.com](https://dune.com)
