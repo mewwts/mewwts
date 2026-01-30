@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mewwts | Cathedral</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">mewwts</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#work" class="mobile-link">Work</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-backdrop"></div>
+        <div class="dome-decoration">
+            <svg viewBox="0 0 400 200" class="dome-svg">
+                <defs>
+                    <linearGradient id="domeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#C9A962;stop-opacity:0.3" />
+                        <stop offset="100%" style="stop-color:#C9A962;stop-opacity:0" />
+                    </linearGradient>
+                </defs>
+                <ellipse cx="200" cy="200" rx="180" ry="120" fill="none" stroke="url(#domeGradient)" stroke-width="1"/>
+                <ellipse cx="200" cy="200" rx="140" ry="90" fill="none" stroke="url(#domeGradient)" stroke-width="1"/>
+                <ellipse cx="200" cy="200" rx="100" ry="60" fill="none" stroke="url(#domeGradient)" stroke-width="1"/>
+            </svg>
+        </div>
+        <div class="columns-left">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+        <div class="columns-right">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Welcome to</p>
+            <h1 class="hero-title">
+                <span class="title-line">A Space of</span>
+                <span class="title-line title-accent">Timeless Design</span>
+            </h1>
+            <p class="hero-description">
+                Where classical elegance meets modern innovation.<br>
+                Crafting digital experiences that inspire and endure.
+            </p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary">Explore Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="arch-frame">
+                <div class="arch-top"></div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">
+                            <span class="title-ornament">&#10022;</span>
+                            About
+                            <span class="title-ornament">&#10022;</span>
+                        </h2>
+                        <p class="about-lead">
+                            Like the enduring stone of great cathedrals, we believe in building things that last.
+                        </p>
+                        <p class="about-body">
+                            Drawing inspiration from centuries of architectural mastery, our approach combines
+                            the timeless principles of proportion, harmony, and craftsmanship with contemporary
+                            technology. Every project is a monument to thoughtful design.
+                        </p>
+                        <p class="about-body">
+                            The interplay of light and shadow, the balance of form and function,
+                            the reverence for materials — these are the foundations upon which we create.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">Years of Craft</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="150">0</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="40">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="section-container">
+            <h2 class="section-title section-title-light">
+                <span class="title-ornament">&#10022;</span>
+                Selected Work
+                <span class="title-ornament">&#10022;</span>
+            </h2>
+            <div class="work-grid">
+                <article class="work-card work-card-large">
+                    <div class="card-image">
+                        <div class="card-image-overlay"></div>
+                        <div class="card-pattern pattern-1"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Web Design</span>
+                        <h3 class="card-title">Dune Analytics</h3>
+                        <p class="card-description">A blockchain analytics platform built with clarity and precision.</p>
+                        <a href="https://dune.com" class="card-link" target="_blank" rel="noopener">
+                            View Project
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <div class="card-image">
+                        <div class="card-image-overlay"></div>
+                        <div class="card-pattern pattern-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Development</span>
+                        <h3 class="card-title">Architecture Studio</h3>
+                        <p class="card-description">Digital presence for modern architectural practice.</p>
+                        <a href="#" class="card-link">
+                            Coming Soon
+                        </a>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <div class="card-image">
+                        <div class="card-image-overlay"></div>
+                        <div class="card-pattern pattern-3"></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">Branding</span>
+                        <h3 class="card-title">Heritage Collection</h3>
+                        <p class="card-description">Visual identity rooted in classical tradition.</p>
+                        <a href="#" class="card-link">
+                            Coming Soon
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="quote-container">
+            <blockquote class="quote">
+                <span class="quote-mark">&ldquo;</span>
+                <p>Architecture is the learned game, correct and magnificent, of forms assembled in the light.</p>
+                <cite>— Le Corbusier</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">
+                        <span class="title-ornament">&#10022;</span>
+                        Let's Build Together
+                        <span class="title-ornament">&#10022;</span>
+                    </h2>
+                    <p class="contact-lead">
+                        Every great structure begins with a conversation.
+                        Share your vision, and let's create something enduring.
+                    </p>
+                    <div class="contact-links">
+                        <a href="https://mewwts.xyz" class="contact-link" target="_blank" rel="noopener">
+                            <span class="link-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                </svg>
+                            </span>
+                            <span>mewwts.xyz</span>
+                        </a>
+                        <a href="https://dune.com" class="contact-link" target="_blank" rel="noopener">
+                            <span class="link-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                </svg>
+                            </span>
+                            <span>dune.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="4" required></textarea>
+                            <div class="input-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-text">mewwts</span>
+                    <p class="footer-tagline">Crafting digital monuments.</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-divider">
+                <div class="divider-line"></div>
+                <div class="divider-ornament">&#10022;</div>
+                <div class="divider-line"></div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 mewwts. Built with reverence for craft.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
